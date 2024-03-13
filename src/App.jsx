@@ -1,5 +1,7 @@
 
+import { useState } from 'react';
 import './App.css'
+import Counter from './Counter';
 
 function App() {
 
@@ -15,9 +17,13 @@ function App() {
   const clickMe4 = (num) => {
     alert(num + 6);
   }
+
   return (
     <>
       <h1>React Core concept part 2</h1>
+
+      <Counter></Counter>
+
       <button onClick={clickMe}>Click me</button>
       <button onClick={clickMe2}>Click me2</button>
       <button onClick={() => {alert('click from arrow function in onClick')}}>Click me3</button>
