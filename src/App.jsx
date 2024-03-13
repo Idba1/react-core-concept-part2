@@ -3,6 +3,7 @@ import { useState } from 'react';
 import './App.css'
 import Counter from './Counter';
 import Player from './Player';
+import Users from './Users';
 
 function App() {
 
@@ -22,6 +23,8 @@ function App() {
   return (
     <>
       <h1>React Core concept part 2</h1>
+
+      <Users></Users>
 
       <Player></Player>
 
