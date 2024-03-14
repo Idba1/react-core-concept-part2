@@ -3,7 +3,7 @@ export default function Friend({friend}){
     // console.log(title)
     // console.log(friend)
     return(
-        <div>
+        <div className="box">
             <h4>title:{title}</h4>
             <p>body:{body}</p>
         </div>
