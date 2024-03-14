@@ -5,6 +5,7 @@ import Counter from './Counter';
 import Player from './Player';
 import Users from './Users';
 import Friends from './Friends';
+import Friend from './Friend';
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
       <h1>React Core concept part 2</h1>
 
       <Friends></Friends>
+      
 
       <Users></Users>
 
